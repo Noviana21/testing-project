@@ -1,7 +1,7 @@
 const { Builder, By, until } = require('selenium-webdriver');
 
 // Konfigurasi URL
-const BASE_URL = 'http://localhost:3000';
+const BASE_URL = 'http://localhost:8000';
 
 async function runRegressionTests() {
     let driver = await new Builder().forBrowser('chrome').build();
