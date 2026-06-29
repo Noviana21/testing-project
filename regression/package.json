@@ -1,0 +1,12 @@
+{
+    "name": "selenium-regression-test",
+    "version": "1.0.0",
+    "description": "Automated Regression Testing untuk Sistem Supply Chain B2B",
+    "main": "regression-test.js",
+    "scripts": {
+        "test": "node regression-test.js"
+    },
+    "dependencies": {
+        "selenium-webdriver": "^4.19.0"
+    }
+}
